@@ -13,7 +13,7 @@ showList();
 function showList(){
     listcontainer.innerHTML=""
     list.forEach(function(x){
-        listcontainer.innerHTML += "<li><img src=uncheked.svg width=20px>"+x+"</li>"
+        listcontainer.innerHTML += "<li><img src=uncheked.svg width=20px >"+x+"</li>"
 
     })
 
